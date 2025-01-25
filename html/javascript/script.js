@@ -4,7 +4,7 @@ const weekamount=async()=>{
     document.getElementById('ogaintbtn').classList.remove('ring-indigo-500', 'bg-indigo-50','text-blue-500')
     document.getElementById('todayobtn').classList.remove('ring-indigo-500', 'bg-indigo-50','text-blue-500')
     document.getElementById('daterangebtn').classList.remove('ring-indigo-500', 'bg-indigo-50','text-blue-500')
-    const api='/html/jsondata/monthlydata.json'
+    const api='https://gowtham-009.github.io/vuexydatatable/html/jsondata/monthlydata.json'
 
     try {
         const response=await fetch(api, {
@@ -49,7 +49,7 @@ const day15amount=async()=>{
     document.getElementById('daterangebtn').classList.remove('ring-indigo-500', 'bg-indigo-50','text-blue-500')
       document.getElementById('loading').style.display='block'
    
-    const api='/html/jsondata/monthlydata.json'
+    const api='https://gowtham-009.github.io/vuexydatatable/html/jsondata/monthlydata.json'
 
     try {
         const response=await fetch(api, {
@@ -89,7 +89,7 @@ const monthamt=async()=>{
     document.getElementById('daterangebtn').classList.remove('ring-indigo-500', 'bg-indigo-50','text-blue-500')
     document.getElementById('amounttradepanel').classList.add('hidden')
     document.getElementById('loading').style.display='block'
-    const api='/html/jsondata/monthlydata.json'
+    const api='https://gowtham-009.github.io/vuexydatatable/html/jsondata/monthlydata.json'
 
     try {
         const response=await fetch(api, {
@@ -130,7 +130,7 @@ const moth_3=async()=>{
     document.getElementById('daterangebtn').classList.remove('ring-indigo-500', 'bg-indigo-50','text-blue-500')
     document.getElementById('amounttradepanel').classList.add('hidden')
     document.getElementById('loading').style.display='block'
-    const api='/html/jsondata/monthlydata.json'
+    const api='https://gowtham-009.github.io/vuexydatatable/html/jsondata/monthlydata.json'
 
     try {
         const response=await fetch(api, {

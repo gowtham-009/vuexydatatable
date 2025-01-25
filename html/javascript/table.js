@@ -9,7 +9,7 @@ let sortDirection = {};
 // Fetch Table Data
 const fetchTableData = async () => {
   document.getElementById('table_loading').style.display = 'block';
-  const api = '/html/jsondata/table.json';
+  const api = 'https://gowtham-009.github.io/vuexydatatable/html/jsondata/table.json';
 
   try {
     const response = await fetch(api);
