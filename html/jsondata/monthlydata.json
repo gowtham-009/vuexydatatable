@@ -1,0 +1,35 @@
+[
+    {
+      "week": {
+        "investamount": 10000,
+        "currentvalue": 5000,
+        "overallgain": 2000,
+        "todaygain": 1000
+      }
+    },
+    {
+      "day_15": {
+        "investamount": 250000,
+        "currentvalue": 650000,
+        "overallgain": 350000,
+        "todaygain": 250000
+      }
+    },
+    {
+      "month": {
+        "investamount": 200000,
+        "currentvalue": 60000,
+        "overallgain": 30000,
+        "todaygain": 20000
+      }
+    },
+    {
+      "month_3": {
+        "investamount": 3500000,
+        "currentvalue": 500000,
+        "overallgain": 200000,
+        "todaygain": 100000
+      }
+    }
+  ]
+  
